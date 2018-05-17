@@ -152,6 +152,23 @@ aside{
           right: 20px;
           top: 12px;
       }
-
-
-
+.pager{
+    border-top: 1px solid #e1e0e0;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 30px;
+}
+.pager a{
+    color: #818181;
+    text-decoration: none;
+}
+.pager a:hover{
+    text-decoration: underline;
+}
+.previous-link{
+    float: left;
+}
+.next-link{
+    float: right;
+}
