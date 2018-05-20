@@ -69,6 +69,11 @@ header{
     color: #58c93a;
     border-bottom: 3px solid #58c93a;
 }
+.content{
+    border-right: 1px solid #e1e0e0;
+    border-left: 1px solid #e1e0e0;
+
+}
 main{
     float: left;
     width: 62.5%;
@@ -181,4 +186,40 @@ footer{
 }
 footer img{
     margin: 0 auto 20px auto;
+}
+@media screen and (max-width: 768px) {
+    .logo{
+        margin-top: 20px;
+    }
+    .menu li a{
+        padding: 25px 35px;
+    }
+    main {
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+    article>header img{
+        width: 100%;
+    }
+
+    aside {
+        float: none;
+        width: 100%;
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 768px){
+    .logo{
+        float: none;
+        margin: 10px auto;
+        display: block;
+    }
+    .menu{
+        float: none;
+        width: 100%;
+    }
+    .menu li a{
+        padding: 25px 35px;
+    }
 }
